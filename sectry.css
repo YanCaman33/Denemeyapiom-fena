@@ -1,0 +1,26 @@
+.button1 {
+	padding-top: 8px;
+	padding-left: 10px;
+	padding-bottom: 8px;
+	padding-right: 10px;
+	font-family: Arial;
+	font-size: 20px;
+	background-color: rgb(90, 7, 76);
+	color: beige;
+	border: none;
+	cursor: pointer;
+	border-radius: 4px;
+	transition: opacity 0.2s,
+	color 0.2s, background-color 0.12s;
+}
+
+.button1:hover {
+	opacity: 0.7;
+	background-color: rgb(224, 128, 128);
+	color: rgb(0, 0, 139);
+}
+
+.button1:active {
+	color: black;
+	background-color: rgb(0, 143, 43);
+}
